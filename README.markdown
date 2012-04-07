@@ -12,14 +12,14 @@ PHP 5.4+
 
 Default running is 8000, you can change it from Makefile or run.bat
 
-## Linux
+## Fast running on Linux
 
 ```
 cd {PATH}/phpSimpleBuiltInRouter
 make
 ```
 
-## Windows
+## Fast running on Windows
 
 ```
 cd {PATH}/phpSimpleBuiltInRouter
