@@ -8,7 +8,7 @@
     </head>
     <body>
         <?php
-            echo "Welcome to index page";
+            echo "Welcome to sample page";
         ?>
     </body>
 </html>

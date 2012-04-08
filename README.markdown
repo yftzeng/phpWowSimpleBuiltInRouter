@@ -1,31 +1,32 @@
 # phpSimpleBuiltInRouter
 
-Simple PHP Built-in Web server.
+Simple PHP Built-in Router Web Server.
 
-Fast to start up a router web server.
+Fast to start a simple router web server.
 
-# Requirement
+## Requirement
 
 PHP 5.4+
 
-# Usage
+## Usage
 
-Default running is 8000, you can change it from Makefile or run.bat
+* Default running port is 8000, you can change it from Makefile, or win/run.bat and win/simple_run.bat.
+* Default web root directory is "document_root", you can change it from Makefile, or win/run.bat and win/simple_run.bat.
 
-## Fast running on Linux
-
-```
-cd {PATH}/phpSimpleBuiltInRouter
-make
-```
-
-## Fast running on Windows
+### Fast running on Linux
 
 ```
 cd {PATH}/phpSimpleBuiltInRouter
-run.bat
+make && make run
 ```
 
-# License
+### Fast running on Windows
+
+```
+cd {PATH}/phpSimpleBuiltInRouter/win
+make.bat && run.bat
+```
+
+## License
 
 the MIT License
