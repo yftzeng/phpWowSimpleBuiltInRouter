@@ -3,13 +3,13 @@ RUNNING_PORT=8000
 DOCUMENT_ROOT=document_root
 
 all:
-	php -c src/phpSimpleBuiltInRouter.ini src/phpSimpleBuiltInRouter.php
+	php -c src/phpWowSimpleBuiltInRouter.ini src/phpWowSimpleBuiltInRouter.php
 
 run:
-	php -S $(LISTEN_IP):$(RUNNING_PORT) -t $(DOCUMENT_ROOT) phpSimpleBuiltInRouter.phar
+	php -S $(LISTEN_IP):$(RUNNING_PORT) -t $(DOCUMENT_ROOT) phpWowSimpleBuiltInRouter.phar
 
 simple_run:
 	php -S $(LISTEN_IP):$(RUNNING_PORT) -t $(DOCUMENT_ROOT) src/simple_router.php
 
 clean:
-	rm -f phpSimpleBuiltInRouter.phar
+	rm -f phpWowSimpleBuiltInRouter.phar

@@ -1,1 +1,1 @@
-php -c ../src/phpSimpleBuiltInRouter.ini ../src/phpSimpleBuiltInRouter.php && move /Y phpSimpleBuiltInRouter.phar ..
+php -c ../src/phpWowSimpleBuiltInRouter.ini ../src/phpWowSimpleBuiltInRouter.php && move /Y phpWowSimpleBuiltInRouter.phar ..

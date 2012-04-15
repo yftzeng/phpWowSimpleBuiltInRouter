@@ -1,4 +1,4 @@
-# phpSimpleBuiltInRouter
+# phpWowSimpleBuiltInRouter
 
 Simple PHP Built-in Router Web Server.
 
@@ -16,14 +16,14 @@ PHP 5.4+
 ### Fast running on Linux
 
 ```
-cd {PATH}/phpSimpleBuiltInRouter
+cd {PATH}/phpWowSimpleBuiltInRouter
 make && make run
 ```
 
 ### Fast running on Windows
 
 ```
-cd {PATH}/phpSimpleBuiltInRouter/win
+cd {PATH}/phpWowSimpleBuiltInRouter/win
 make.bat && run.bat
 ```
 
